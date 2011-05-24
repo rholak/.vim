@@ -1,6 +1,5 @@
 set nocompatible
 call pathogen#infect()
-call pathogen#helptags()
 
 syntax enable
 filetype plugin indent on
@@ -29,7 +28,7 @@ set laststatus=2
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 set t_Co=256
-color railscasts
+color rcast-console
 
 set et
 set ts=4
