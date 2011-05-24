@@ -1,6 +1,5 @@
 set nocompatible
 call pathogen#infect()
-call pathogen#runtime_append_all_bundles() 
 syntax enable
 filetype plugin indent on
 
@@ -27,7 +26,8 @@ set visualbell
 set laststatus=2
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-colorscheme vividchalk
+set t_Co=256
+colorscheme railscasts
 
 set et
 set ts=4
