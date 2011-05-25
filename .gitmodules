@@ -7,6 +7,6 @@
 [submodule "bundle/vim-railscast-theme"]
 	path = bundle/vim-railscast-theme
 	url = https://github.com/jpo/vim-railscasts-theme.git
-[submodule "bundle/vim-easytags"]
-	path = bundle/vim-easytags
-	url = git://github.com/spf13/vim-easytags.git
+[submodule "bundle/PIV"]
+	path = bundle/PIV
+	url = git://github.com/spf13/PIV.git

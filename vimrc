@@ -36,3 +36,5 @@ set sw=4
 set autoindent
 set smarttab
 set smartindent
+
+let g:DisableAutoPHPFolding = 1
