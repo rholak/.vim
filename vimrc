@@ -1,4 +1,6 @@
 set nocompatible
+let g:DisableAutoPHPFolding = 1
+let php_folding=0
 call pathogen#infect()
 
 syntax enable
@@ -27,8 +29,7 @@ set visualbell
 set laststatus=2
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-set t_Co=256
-color rcast-console
+" set t_Co=256
 
 set et
 set ts=4
@@ -37,4 +38,11 @@ set autoindent
 set smarttab
 set smartindent
 
-let g:DisableAutoPHPFolding = 1
+" ------------------------------------------------------------------
+" Solarized Colorscheme Config
+" ------------------------------------------------------------------
+let g:solarized_contrast="high"    "default value is normal
+let g:solarized_hitrail=1    "default value is 0
+syntax enable
+set background=dark
+colorscheme solarized

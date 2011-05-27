@@ -10,3 +10,6 @@
 [submodule "bundle/PIV"]
 	path = bundle/PIV
 	url = git://github.com/spf13/PIV.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
