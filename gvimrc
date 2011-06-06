@@ -1,2 +1,1 @@
 set nomousehide
-color railscasts
