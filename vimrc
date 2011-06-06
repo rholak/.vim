@@ -46,3 +46,11 @@ let g:solarized_hitrail=1    "default value is 0
 syntax enable
 set background=dark
 colorscheme solarized
+
+" mapping party
+
+vmap > >gv
+vmap < <gv
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+

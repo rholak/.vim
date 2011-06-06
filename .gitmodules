@@ -7,9 +7,12 @@
 [submodule "bundle/vim-railscast-theme"]
 	path = bundle/vim-railscast-theme
 	url = https://github.com/jpo/vim-railscasts-theme.git
-[submodule "bundle/PIV"]
-	path = bundle/PIV
-	url = git://github.com/spf13/PIV.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = git://github.com/tpope/vim-git.git
+[submodule "bundle/vim-haml"]
+	path = bundle/vim-haml
+	url = git://github.com/tpope/vim-haml.git
