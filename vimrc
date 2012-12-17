@@ -3,7 +3,8 @@ let g:DisableAutoPHPFolding = 1
 let php_folding=0
 call pathogen#infect()
 
-syntax enable
+syntax on
+set bg=dark
 filetype plugin indent on
 
 set showcmd
@@ -45,7 +46,7 @@ let g:solarized_contrast="high"    "default value is normal
 let g:solarized_hitrail=1    "default value is 0
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 
 " mapping party
 
@@ -54,3 +55,4 @@ vmap < <gv
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 
+let g:debuggerPort = 9090
