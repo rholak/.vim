@@ -6,7 +6,7 @@
 	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-railscast-theme"]
 	path = bundle/vim-railscast-theme
-	url = https://github.com/jpo/vim-railscasts-theme.git
+	url = git://github.com/jpo/vim-railscasts-theme.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -19,3 +19,6 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/vim-scriptease"]
+	path = bundle/vim-scriptease
+	url = git://github.com/tpope/vim-scriptease.git
