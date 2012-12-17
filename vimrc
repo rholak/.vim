@@ -1,6 +1,8 @@
 set nocompatible
 let g:DisableAutoPHPFolding = 1
 let php_folding=0
+
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 syntax on
