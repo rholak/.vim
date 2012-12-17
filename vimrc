@@ -11,6 +11,7 @@ filetype plugin indent on
 
 set showcmd
 set showmode
+set pastetoggle=<F2>
 
 set hidden
 

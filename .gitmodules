@@ -25,3 +25,6 @@
 [submodule "bundle/vim-mustang"]
 	path = bundle/vim-mustang
 	url = git://github.com/croaker/mustang-vim.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
