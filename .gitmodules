@@ -34,3 +34,9 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/vimux"]
+	path = bundle/vimux
+	url = git://github.com/benmills/vimux.git
+[submodule "bundle/screen"]
+	path = bundle/screen
+	url = git://github.com/ervandew/screen.git
